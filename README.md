@@ -53,7 +53,7 @@
 - **Frontend:** HTML5, Vanilla JavaScript (ES6+)
 - **Стилизация:** [Tailwind CSS](https://tailwindcss.com/) (CDN / Config)
 - **Иконки:** [Lucide Icons](https://lucide.dev/)
-- **Типографика:** Google Fonts (*Playfair Display*, *Inter*)
+- **Типографика:** Google Fonts (*Montserrat*, *Roboto*)
 - **Хранение данных (Current):** In-Memory Client-side JSON DB (в процессе переноса на Backend API)
 
 ---
