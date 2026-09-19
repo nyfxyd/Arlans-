@@ -3,13 +3,6 @@
 # 🎓 UniPulse AI — Маршрут до зачисления
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge&logo=git&logoColor=white" alt="Development Status" />
-  <img src="https://img.shields.io/badge/Version-0.4.0--alpha-blue?style=for-the-badge" alt="Version" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/badge/Tech_Stack-HTML5%20%7C%20TailwindCSS%20%7C%20JS-orange?style=for-the-badge&logo=tailwindcss" alt="Tech Stack" />
-</p>
-
-<p align="center">
   <b>Умный персональный помощник и интерактивный симулятор поступления в университеты Казахстана и мира.</b>
   <br />
   <a href="#-о-проекте">О проекте</a> •
@@ -28,7 +21,7 @@
 
 ## 📋 О проекте
 
-**UniPulse AI** — это веб-платформа, созданная для упрощения процесса выбора университетов и формирования эффективной стратегии поступления для абитуриентов.
+**UniPulse AI** — аналитическая система оптимизации поступления, формирующая персонализированные образовательные траектории.
 
 Система анализирует академические показатели школьника/студента (баллы ЕНТ, результаты IELTS/SAT, средний балл GPA), финансовые возможности и карьерные интересы, после чего формирует персональный список ВУЗов по трём уровням риска:
 
@@ -118,8 +111,8 @@ http://localhost:3000
 
 
 * [/] **Этап 3: Backend & AI Интеграция (В разработке)**
-* [ ] Разработка REST API / FastAPI бэкенда.
-* [ ] Интеграция LLM (AI-ассистента) для анализа мотивационных писем и рекомендаций.
+* [x] Разработка REST API / FastAPI бэкенда.
+* [x] Интеграция LLM (AI-ассистента) для анализа мотивационных писем и рекомендаций.
 * [ ] Сохранение профилей пользователей и заметок в БД (PostgreSQL / Firebase).
 
 
@@ -136,8 +129,6 @@ http://localhost:3000
 ```text
 unipulse-ai/
 ├── index.html              # Основной HTML-файл приложения
-├── assets/                 # Изображения, иконки и статика (при наличии)
-├── src/                    # Модули JavaScript и стили (в процессе рефакторинга)
 ├── README.md               # Документация проекта
 └── LICENSE                 # Лицензия
 
